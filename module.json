@@ -6,6 +6,9 @@
     "author": "Cora",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
+    "esmodules": [
+        "scripts/tinymce.js"
+      ],
     "packs": [
         {
             "name": "items",
