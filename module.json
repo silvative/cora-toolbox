@@ -46,6 +46,6 @@
             "type": "Playlist"
         }
     ],
-    "manifest": "https://gitlab.com/silvative/pf2e-cora-toolbox/-/raw/main/module.json",
-    "download": "https://gitlab.com/silvative/pf2e-cora-toolbox/-/archive/main/pf2e-cora-toolbox-main.zip"
+    "manifest": "https://github.com/silvative/cora-toolbox/raw/main/module.json",
+    "download": "https://github.com/silvative/cora-toolbox/archive/refs/heads/main.zip"
   }
