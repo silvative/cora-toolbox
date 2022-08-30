@@ -1,16 +1,19 @@
 {
-    "name": "pf2e-cora-toolbox",
+    "id": "pf2e-cora-toolbox",
     "title": "Cora's Toolbox",
     "description": "A collection of tools and resources for PF2E.",
-    "version": "1.1.1",
+    "version": "2.0",
     "author": "Cora",
-    "minimumCoreVersion": "10",
-    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": "9",
+        "verified": "10"
+      },
     "packs": [
         {
             "name": "items",
             "label": "Items",
             "path": "./packs/items.db",
+            "system": "pf2e",
             "entity": "Item",
             "type": "Item"
         },
