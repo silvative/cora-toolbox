@@ -2,13 +2,10 @@
     "name": "pf2e-cora-toolbox",
     "title": "Cora's Toolbox",
     "description": "A collection of tools and resources for PF2E.",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "author": "Cora",
     "minimumCoreVersion": "10",
     "compatibleCoreVersion": "10",
-    "esmodules": [
-        "scripts/tinymce.js"
-      ],
     "packs": [
         {
             "name": "items",
@@ -48,4 +45,4 @@
     ],
     "manifest": "https://github.com/silvative/cora-toolbox/raw/main/module.json",
     "download": "https://github.com/silvative/cora-toolbox/archive/refs/heads/main.zip"
-  }
+}
