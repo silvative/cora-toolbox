@@ -1,51 +1,85 @@
 {
-    "id": "pf2e-cora-toolbox",
-    "title": "Development Toolbox",
-    "description": "A collection of macros and other resources for content development.",
-    "version": "2.0",
-    "author": "Cora",
-    "compatibility": {
-        "minimum": "9",
-        "verified": "10"
-      },
-    "packs": [
-        {
-            "name": "items",
-            "label": "Items",
-            "path": "./packs/items.db",
-            "system": "pf2e",
-            "entity": "Item",
-            "type": "Item"
-        },
-        {
-            "name": "journal-entries",
-            "label": "Journals",
-            "path": "./packs/journal-entries.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "macros",
-            "label": "Macros",
-            "path": "./packs/macros.db",
-            "entity": "Macro",
-            "type": "Macro"
-        },
-        {
-            "name": "roll-tables",
-            "label": "Roll Tables",
-            "path": "./packs/roll-tables.db",
-            "entity": "RollTable",
-            "type": "RollTable"
-        },
-        {
-            "name": "playlists",
-            "label": "Playlists",
-            "path": "./packs/playlists.db",
-            "entity": "Playlist",
-            "type": "Playlist"
-        }
-    ],
-    "manifest": "https://github.com/silvative/cora-toolbox/raw/main/module.json",
-    "download": "https://github.com/silvative/cora-toolbox/archive/refs/heads/main.zip"
+  "id": "cora-toolbox",
+  "title": "Development Toolbox",
+  "description": "A collection of macros and other resources for content development.",
+  "version": "2.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "media": [
+    {
+        "type": "setup",
+        "caption": "Exploration Effects",
+        "thumbnail": "/modules/cora-toolbox/assets/thumb.webp"
+    }],
+  "packs": [
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "system": "pf2e",
+      "type": "Item",
+      "banner": "/modules/cora-toolbox/assets/banner.webp",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "journal-entries",
+      "label": "Journals",
+      "path": "packs/journal-entries",
+      "type": "JournalEntry",
+      "banner": "/modules/cora-toolbox/assets/banner.webp",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "banner": "/modules/cora-toolbox/assets/banner.webp",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "roll-tables",
+      "label": "Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "banner": "/modules/cora-toolbox/assets/banner.webp",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "playlists",
+      "label": "Playlists",
+      "path": "packs/playlists",
+      "type": "Playlist",
+      "banner": "/modules/cora-toolbox/assets/banner.webp",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Development Toolbox",
+      "sorting": "m",
+      "packs": [
+        "roll-tables",
+        "macros",
+        "journal-entries",
+        "items",
+        "playlists"
+      ]
+    }
+  ],
+  "manifest": "https://github.com/silvative/cora-toolbox/raw/main/module.json",
+  "download": "https://github.com/silvative/cora-toolbox/archive/refs/heads/main.zip",
+  "authors": [
+    {
+      "name": "Cora",
+      "flags": {}
+    }
+  ]
 }
